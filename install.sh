@@ -10,6 +10,9 @@ fi
 }
 install_lib sox
 install_lib portaudio19-dev
+install_lib arduino
+install_lib arduino-core
 pip3 install pyaudio
 pip3 install STT-1.0.0-cp36-cp36m-linux_aarch64.whl --user
 pip3 install coqui_stt_ctcdecoder-1.0.0-cp36-cp36m-linux_aarch64.whl --user
+pip3 install pyserial
