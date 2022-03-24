@@ -16,3 +16,5 @@ pip3 install pyaudio
 pip3 install STT-1.0.0-cp36-cp36m-linux_aarch64.whl --user
 pip3 install coqui_stt_ctcdecoder-1.0.0-cp36-cp36m-linux_aarch64.whl --user
 pip3 install pyserial
+wget https://coqui.gateway.scarf.sh/russian/jemeyer/v0.1.0/wiki-ru-6gram.scorer
+unzip model.zip
